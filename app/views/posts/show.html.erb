@@ -1,0 +1,8 @@
+<h2>Posting</h2>  
+Title: <%=@post.title%><br>
+Category: <%= link_to @post.category.name, category_path(@post.category) %><br>
+Price: $<%=@post.price%><br>
+Description: <%=@post.description%><br>
+Email: <%=@post.email%><br>
+Edit Key: <%=@post.edit_key%><br>
+
